@@ -1,0 +1,127 @@
+body {
+	padding: 0;
+	margin: 0;
+	background: url(wallpaper.png);
+	background-size: cover;
+	color: #ffffff;
+}
+
+.main {
+	margin: 0 auto;
+	width: 500px;
+	background: rgba(0,0,0,0.5);
+	box-shadow: 0px 1px 10px -2px #000000;
+	overflow: hidden;
+	height: 99.9vh;
+	position: relative;
+}
+
+.header {
+	background: #888888;
+	padding: 10px 20px;
+	color: #ffffff;
+	font-weight: 700;
+	font-size: 20px;
+	box-shadow: 0px 5px 12px -6px #000000;
+}
+
+.button-bottom {
+	background: #444444;
+	position: absolute;
+	bottom: 0;
+	width: 466px;
+	box-shadow: 0px -6px 12px -6px #000000;
+	padding: 17px;
+	display: block;
+	text-align: center;
+}
+
+.content {
+	padding: 10px;
+	overflow-y: auto;
+	height: 80.5vh;
+}
+
+.menu-list {
+	position: relative;
+}
+
+.menu-list a {
+	padding: 14px 20px;
+	box-shadow: 0px 1px 10px -2px #000000;
+	color: #ffffff;
+	font-weight: 700;
+	text-decoration: none;
+	margin-bottom: 10px;
+	display: block;
+	border-radius: 5px;
+	background: #aaaaaa;
+}
+
+.menu-list a:hover {
+	box-shadow: 0px 1px 10px -2px #dddddd;
+	transition: .1s linear;
+}
+
+.button-bottom a {
+  width: 218px;
+  text-decoration: none;
+  font-weight: 700;
+  padding: 7px 17px;
+  background: #888888;
+  color: #ffffff;
+  box-shadow: 0px 1px 10px -2px #000000;
+  border-radius: 5px;
+}
+
+.button-bottom a:hover {
+	padding: 5px 17px;
+	transition: .1s linear;
+}
+
+.input-touya {
+	display: block;
+	margin-bottom: 10px;
+}
+
+.matrix-input-touya {
+	width: 60px;
+	margin-bottom: 5px;
+	margin-right: 5px;
+	padding: 5px;
+	font-size: 20px;
+	
+}
+
+input, select {
+	border: none;
+	padding: 5px;
+	border-radius: 5px;
+}
+
+select {
+	display: block;
+	margin: 10px 0;
+}
+
+button {
+	cursor: pointer;
+	border: none;
+	text-decoration: none;
+	font-weight: 700;
+	padding: 12px 17px;
+	background: #888888;
+	color: #ffffff;
+	box-shadow: 0px 1px 10px -2px #000000;
+    border-radius: 5px;
+}
+
+button:hover {
+	box-shadow: 0px 1px 10px -2px #dddddd;
+	transition: .1s linear;
+}
+
+hr {
+	color: #ffffff;
+	border: 2px solid #888888;
+}
