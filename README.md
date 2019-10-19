@@ -1,2 +1,2 @@
-# STEM
-STEM Science, Technology, Engineering and Math
+# stem
+stem = science, technology, engineering and math
